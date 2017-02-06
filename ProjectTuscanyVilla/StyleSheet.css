@@ -1,60 +1,66 @@
 ﻿/*SET THE HEADER SO THAT IT FILLS UP THE ENTIRE BACKGROUND COLOR*/
 .container{
-    width: 100%;
-    height: 100px;
-    margin: auto;
+   width:100%;
+    height: 150px;
+    margin: 0;
     padding: 0;
     background-color:#D0D2D1;
    }
 body {
     width:100%;
     height:100px;
-    border:0;
+    border-color:#D0D2D1;
     border-bottom-style:solid;
-    background-color: #D0D2D1;
+    background-color: white;
+    color:black;
    
 
 }
 /*CENTER THE HOMEPAGE*/
 .text-center h1{
    font-family:'Open Sans', sans-serif;
+   margin-bottom:0;
    padding-bottom:0;
+   padding:0;
   
 
 }
 .container.text-center{
     padding: 10px;
-    margin-bottom:50px;
+    margin-bottom:0;
 
 }
 nav.navbar.navbar-default{
-    margin-bottom:0px;
-    border-left-width:initial;
-   
+    margin-bottom:0px;   
 }
 .text-center h2{
     font-family: 'Allura', cursive;
     padding-top:0;
 }
-#fakeLogo{
-    height:20px;
-    width:2%;
-}
 .navbar-center {
     position: absolute;
-    left: 565px;
-    background-color: aliceblue;
+    left:211%;
+    background-color:#82BFD8;
+    border: 1px solid white;
+
    
 }
 .pull-right {
     position:absolute;
-    left:-275px;
+    left:290px;
     padding:0;
     margin:0;
+   
+
 }
 .pull-left{
     position:absolute;
-    right:2%;
+    right:3%;
+    border: 1px solid white;
+    background-color:#4FB1A2;
+     font-weight:bold;
+    color:#FBFBFB;
+    font-size:15px;
     
 }
     
@@ -62,17 +68,52 @@ nav.navbar.navbar-default{
 #mainImage{
     width:105%;
     height:500px;
+    padding:0;
    
 
 }
 #secImage{
     height:500px;
     width:100%;
+    padding:0;
 }
 .col-md-3{
+   margin:0;
+}
+.thumbnail {
+    border: 2px solid white;
+    background-image: url('images/box_partners.png');
+    height: 70%;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+h3{
+    margin:50px;
+}
+p{
+    color:dimgrey;
+    font-family:'Quicksand', sans-serif;
+    text-align:center;
+    margin-bottom:auto;
+}
+.panel-footer {
+    text-align:center;
+    font-size:75%;
+    background: #aaa;
+    color: white;
     margin:0;
-   height:100%;
-   padding:0;
+
 }
 
-    
+.btn-default{
+    color:#A1CEE1;
+    background-color:cornflowerblue;
+}
+#fakeLogo{
+    height:4%;
+    width:4%;
+}
+   
